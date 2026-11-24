@@ -28,6 +28,7 @@ add_executable(ImathTest
   testFrustum.cpp
   testFrustumTest.cpp
   testFun.cpp
+  testHierarchicalCulling.cpp
   testInterval.cpp
   testInvert.cpp
   testJacobiEigenSolver.cpp
@@ -124,6 +125,7 @@ if(NOT "${CMAKE_PROJECT_NAME}" STREQUAL "ImathTest")
     testTinySVD
     testJacobiEigenSolver
     testFrustumTest
+    testHierarchicalCulling
     testInterop
     testNoInterop
   )

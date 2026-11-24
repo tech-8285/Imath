@@ -20,6 +20,7 @@
 #include "testFrustumTest.h"
 #include "testFun.h"
 #include "testFunction.h"
+#include "testHierarchicalCulling.h"
 #include "testInterop.h"
 #include "testNoInterop.h"
 #include "testInterval.h"
@@ -86,6 +87,7 @@ main (int argc, char* argv[])
     TEST (testTinySVD);
     TEST (testJacobiEigenSolver);
     TEST (testFrustumTest);
+    TEST (testHierarchicalCulling);
     TEST (testInterop);
     TEST (testNoInterop);
     // NB: If you add a test here, make sure to enumerate it in the
