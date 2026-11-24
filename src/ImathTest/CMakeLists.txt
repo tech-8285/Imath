@@ -41,6 +41,7 @@ add_executable(ImathTest
   testRandom.cpp
   testRoots.cpp
   testShear.cpp
+  testSpotLightRig.cpp
   testTinySVD.cpp
   testVec.cpp
   testArithmetic.cpp
@@ -121,6 +122,7 @@ if(NOT "${CMAKE_PROJECT_NAME}" STREQUAL "ImathTest")
     testBoxAlgo
     testBox
     testProcrustes
+    testSpotLightRig
     testTinySVD
     testJacobiEigenSolver
     testFrustumTest

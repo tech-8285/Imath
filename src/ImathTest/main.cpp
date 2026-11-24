@@ -37,6 +37,7 @@
 #include "testRoots.h"
 #include "testShear.h"
 #include "testSize.h"
+#include "testSpotLightRig.h"
 #include "testTinySVD.h"
 #include "testToFloat.h"
 #include "testVec.h"
@@ -83,6 +84,7 @@ main (int argc, char* argv[])
     TEST (testBoxAlgo);
     TEST (testBox);
     TEST (testProcrustes);
+    TEST (testSpotLightRig);
     TEST (testTinySVD);
     TEST (testJacobiEigenSolver);
     TEST (testFrustumTest);
