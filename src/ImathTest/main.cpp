@@ -29,6 +29,7 @@
 #include "testLineAlgo.h"
 #include "testMatrix.h"
 #include "testMiscMatrixAlgo.h"
+#include "testNearestRotation.h"
 #include "testProcrustes.h"
 #include "testQuat.h"
 #include "testQuatSetRotation.h"
@@ -68,6 +69,7 @@ main (int argc, char* argv[])
     TEST (testShear);
     TEST (testMatrix);
     TEST (testMiscMatrixAlgo);
+    TEST (testNearestRotation);
     TEST (testRoots);
     TEST (testFun);
     TEST (testInvert);

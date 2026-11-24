@@ -34,6 +34,7 @@ add_executable(ImathTest
   testLineAlgo.cpp
   testMatrix.cpp
   testMiscMatrixAlgo.cpp
+  testNearestRotation.cpp
   testProcrustes.cpp
   testQuat.cpp
   testQuatSetRotation.cpp
@@ -106,6 +107,7 @@ if(NOT "${CMAKE_PROJECT_NAME}" STREQUAL "ImathTest")
     testShear
     testMatrix
     testMiscMatrixAlgo
+    testNearestRotation
     testRoots
     testFun
     testInvert
