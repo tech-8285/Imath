@@ -18,6 +18,7 @@
 #include "testExtractSHRT.h"
 #include "testFrustum.h"
 #include "testFrustumTest.h"
+#include "testFrustumWindow.h"
 #include "testFun.h"
 #include "testFunction.h"
 #include "testInterop.h"
@@ -73,6 +74,7 @@ main (int argc, char* argv[])
     TEST (testInvert);
     TEST (testInterval);
     TEST (testFrustum);
+    TEST (testFrustumWindow);
     TEST (testRandom);
     TEST (testExtractEuler);
     TEST (testExtractSHRT);

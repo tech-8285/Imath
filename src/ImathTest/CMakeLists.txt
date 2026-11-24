@@ -27,6 +27,7 @@ add_executable(ImathTest
   testExtractSHRT.cpp
   testFrustum.cpp
   testFrustumTest.cpp
+  testFrustumWindow.cpp
   testFun.cpp
   testInterval.cpp
   testInvert.cpp
@@ -111,6 +112,7 @@ if(NOT "${CMAKE_PROJECT_NAME}" STREQUAL "ImathTest")
     testInvert
     testInterval
     testFrustum
+    testFrustumWindow
     testRandom
     testExtractEuler
     testExtractSHRT
